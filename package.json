@@ -1,0 +1,38 @@
+{
+  "name": "dioramap",
+  "version": "0.1.0",
+  "description": "Any place on Earth as a pixel-art isometric diorama poster. Free, no API key.",
+  "keywords": [
+    "map",
+    "isometric",
+    "pixel-art",
+    "openstreetmap",
+    "overture",
+    "poster",
+    "diorama",
+    "city",
+    "three.js",
+    "agent-skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3",
+    "pbf": "^4.0.1",
+    "playwright-core": "^1.49.1",
+    "pmtiles": "^4.3.0",
+    "three": "^0.170.0"
+  },
+  "bin": {
+    "dioramap": "bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
