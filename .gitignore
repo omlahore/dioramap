@@ -1,5 +1,10 @@
 node_modules/
 out/
 *.png
-!docs/**/*.png
+*.gif
+*.mp4
+*.json
+!package.json
+!package-lock.json
+!docs/**
 .DS_Store
