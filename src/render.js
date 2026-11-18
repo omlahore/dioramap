@@ -580,6 +580,8 @@ function poster(n = NIGHT ? 1 : 0) {
   pixText(ctx, ll, x, y + 26 * S, fs, soft);
   const credit = "MAP DATA (C) OPENSTREETMAP CONTRIBUTORS, OVERTURE MAPS";
   pixText(ctx, credit, outC.width - 12 * S - credit.length * 6 * fs, y + 26 * S, fs, soft);
+  const mark = "GITHUB.COM/OMLAHORE/DIORAMAP";
+  pixText(ctx, mark, outC.width - 12 * S - mark.length * 6 * S + S, y + 17 * S, S, soft);
 }
 
 // ---------- video: the city rises out of the street map, then night falls ----------

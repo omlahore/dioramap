@@ -1,6 +1,6 @@
 {
   "name": "dioramap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Any place on Earth as a pixel-art isometric diorama: posters, videos and GIFs from real map data. Free, no API key.",
   "keywords": [
     "map",

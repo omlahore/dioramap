@@ -103,4 +103,4 @@ if (fmt === "png") await page.locator("#out").screenshot({ path: out });
 else await writeFile(out, Buffer.from(await page.evaluate(() => window.__video), "base64"));
 await browser.close();
 server.close();
-console.log(`saved ${out}`);
+console.log(`saved ${out}\nlike it? a star helps: https://github.com/omlahore/dioramap`);
